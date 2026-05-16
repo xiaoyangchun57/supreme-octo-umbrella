@@ -46,6 +46,16 @@ def get_all_csv_files(data_dir):
                 csv_files.append(os.path.join(root, file))
     return csv_files
 
+def get_all_xlsx_files(data_dir):
+    """获取目录下所有Excel文件（排除成图表）"""
+    xlsx_files = []
+    for root, dirs, files in os.walk(data_dir):
+        for file in files:
+            if file.lower().endswith(('.xlsx', '.xls')):
+                if '成图' not in file:
+                    xlsx_files.append(os.path.join(root, file))
+    return xlsx_files
+
 def backup_file(file_path):
     """备份文件"""
     if os.path.exists(file_path):

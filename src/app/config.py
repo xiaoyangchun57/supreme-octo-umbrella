@@ -9,20 +9,25 @@ def get_resource_path(relative_path):
         base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     return os.path.join(base_path, relative_path)
 
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+def get_exe_dir():
+    """获取可执行文件所在目录"""
+    if getattr(sys, 'frozen', False):
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-try:
-    BASE_PATH = sys._MEIPASS
-except Exception:
-    BASE_PATH = ROOT_DIR
+ROOT_DIR = get_exe_dir()
+BASE_PATH = ROOT_DIR
 
-DEFAULT_DATA_DIR = get_resource_path('断面')
-DEFAULT_TEMPLATE_DIR = get_resource_path('模板')
+DEFAULT_DATA_DIR = os.path.join(ROOT_DIR, '断面')
+DEFAULT_TEMPLATE_DIR = os.path.join(ROOT_DIR, '模板')
 DEFAULT_OUTPUT_DIR = os.path.join(ROOT_DIR, '成果')
 
 LOG_DIR = os.path.join(ROOT_DIR, 'logs')
 BACKUP_DIR = os.path.join(ROOT_DIR, 'backup')
 
+os.makedirs(DEFAULT_DATA_DIR, exist_ok=True)
+os.makedirs(DEFAULT_TEMPLATE_DIR, exist_ok=True)
+os.makedirs(DEFAULT_OUTPUT_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
 os.makedirs(BACKUP_DIR, exist_ok=True)
 

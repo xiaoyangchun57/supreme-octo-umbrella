@@ -6,11 +6,11 @@ from ..modules.csv_to_report import CsvToReportConverter
 from ..modules.report_to_85 import ReportTo85Converter
 from ..modules.header_fill import HeaderFiller
 from ..modules.auto_plot import AutoPlotter
-from ..modules.plot_summary import PlotSummary
+
 from ..modules.folder_integration import FolderIntegrator
 from ..modules.storage_calculation import StorageCalculator
 from ..modules.data_check import DataChecker
-from ..utils import get_all_csv_files, backup_file, log_message
+from ..utils import get_all_csv_files, get_all_xlsx_files, backup_file, log_message
 from ..config import DEFAULT_DATA_DIR, DEFAULT_OUTPUT_DIR, DEFAULT_TEMPLATE_DIR
 
 class MainWindow:
@@ -34,7 +34,6 @@ class MainWindow:
         self.create_conversion_tab()
         self.create_processing_tab()
         self.create_check_tab()
-        self.create_summary_tab()
         
     def create_settings_tab(self):
         tab = ttk.Frame(self.notebook)
@@ -173,13 +172,11 @@ TEMPLATE_DIR={self.template_dir}
         else:
             results.append(f"✗ 模板目录不存在: {template_path}")
         
-        corr_path = self.correspondence_entry.get()
-        if corr_path and os.path.exists(corr_path):
-            results.append(f"✓ 对应表文件: {corr_path}")
+        corr_path = self.root_dir_entry.get()
+        if corr_path and os.path.exists(os.path.join(corr_path, '对应表.xlsx')):
+            results.append(f"✓ 对应表文件存在")
         elif corr_path:
-            results.append(f"✗ 对应表文件不存在: {corr_path}")
-        else:
-            results.append(f"⚠ 未指定对应表文件")
+            results.append(f"⚠ 对应表文件未找到: {os.path.join(corr_path, '对应表.xlsx')}")
         
         self.verify_result.insert(tk.END, "\n".join(results))
         self.verify_result.config(state=tk.DISABLED)
@@ -197,8 +194,8 @@ TEMPLATE_DIR={self.template_dir}
         self.browse_button = ttk.Button(frame, text="浏览", command=self.browse_csv)
         self.browse_button.pack(side=tk.RIGHT, padx=5)
         
-        self.csv_files_list = tk.Listbox(tab, width=100, height=15)
-        self.csv_files_list.pack(padx=10, pady=5)
+        self.csv_stats_label = ttk.Label(tab, text="点击'加载CSV文件'按钮查看统计信息")
+        self.csv_stats_label.pack(padx=10, pady=5)
         
         self.load_csv_button = ttk.Button(tab, text="加载CSV文件", command=self.load_csv_files)
         self.load_csv_button.pack(pady=5)
@@ -234,8 +231,13 @@ TEMPLATE_DIR={self.template_dir}
         self.storage_button = ttk.Button(self.process_buttons_frame, text="库容计算", command=self.calculate_storage)
         self.storage_button.grid(row=2, column=1, padx=5, pady=5)
         
+        self.stop_button = ttk.Button(self.process_buttons_frame, text="停止计算", command=self.stop_calculation, state=tk.DISABLED)
+        self.stop_button.grid(row=2, column=2, padx=5, pady=5)
+        
         self.process_progress = tk.Text(tab, height=15, width=100, state=tk.DISABLED)
         self.process_progress.pack(padx=10, pady=5)
+        
+        self.storage_calculator = None
         
     def create_check_tab(self):
         tab = ttk.Frame(self.notebook)
@@ -247,41 +249,8 @@ TEMPLATE_DIR={self.template_dir}
         self.check_section_button = ttk.Button(self.check_buttons_frame, text="检查断面", command=self.check_section)
         self.check_section_button.grid(row=0, column=0, padx=5, pady=5)
         
-        self.find_empty_button = ttk.Button(self.check_buttons_frame, text="查找空白断面", command=self.find_empty_sections)
-        self.find_empty_button.grid(row=0, column=1, padx=5, pady=5)
-        
-        self.check_roughness_button = ttk.Button(self.check_buttons_frame, text="检查糙率", command=self.check_roughness)
-        self.check_roughness_button.grid(row=0, column=2, padx=5, pady=5)
-        
-        self.generate_report_button = ttk.Button(self.check_buttons_frame, text="生成报告", command=self.generate_check_report)
-        self.generate_report_button.grid(row=1, column=0, padx=5, pady=5)
-        
         self.check_results = tk.Text(tab, height=20, width=100, state=tk.DISABLED)
         self.check_results.pack(padx=10, pady=5)
-        
-    def create_summary_tab(self):
-        tab = ttk.Frame(self.notebook)
-        self.notebook.add(tab, text="统计摘要")
-        
-        self.summary_frame = ttk.LabelFrame(tab, text="处理统计")
-        self.summary_frame.pack(fill=tk.X, padx=10, pady=10)
-        
-        self.stats_labels = {
-            'total': ttk.Label(self.summary_frame, text="总文件数: 0"),
-            'success': ttk.Label(self.summary_frame, text="成功: 0"),
-            'failed': ttk.Label(self.summary_frame, text="失败: 0")
-        }
-        
-        row = 0
-        for key, label in self.stats_labels.items():
-            label.grid(row=row, column=0, sticky=tk.W, padx=20, pady=5)
-            row += 1
-        
-        self.backup_button = ttk.Button(tab, text="备份数据", command=self.backup_data)
-        self.backup_button.pack(pady=10)
-        
-        self.open_output_button = ttk.Button(tab, text="打开成果目录", command=self.open_output_dir)
-        self.open_output_button.pack(pady=5)
         
     def browse_csv(self):
         folder = filedialog.askdirectory(initialdir=self.data_dir)
@@ -292,10 +261,23 @@ TEMPLATE_DIR={self.template_dir}
             self.data_dir_entry.insert(0, folder)
         
     def load_csv_files(self):
-        self.csv_files_list.delete(0, tk.END)
         csv_files = get_all_csv_files(self.data_dir)
+        
+        zbc_count = 0
+        zbm_count = 0
+        
         for f in csv_files:
-            self.csv_files_list.insert(tk.END, os.path.basename(f))
+            filename = os.path.basename(f).lower()
+            if filename.startswith('z'):
+                zbm_count += 1
+            else:
+                zbc_count += 1
+        
+        stats_text = f"检测到 {len(csv_files)} 个CSV文件\n"
+        stats_text += f"  - 横断面: {zbc_count} 个\n"
+        stats_text += f"  - 纵断面: {zbm_count} 个"
+        
+        self.csv_stats_label.config(text=stats_text)
         
     def update_progress(self, text_widget, message):
         text_widget.config(state=tk.NORMAL)
@@ -321,8 +303,6 @@ TEMPLATE_DIR={self.template_dir}
             self.update_progress(self.progress_text, f"\n转换完成！")
             self.update_progress(self.progress_text, f"成功: {len(results['success'])}")
             self.update_progress(self.progress_text, f"失败: {len(results['failed'])}")
-            
-            self.update_stats(results)
             
         Thread(target=run_conversion).start()
         
@@ -430,20 +410,29 @@ TEMPLATE_DIR={self.template_dir}
         self.process_progress.delete(1.0, tk.END)
         self.process_progress.config(state=tk.DISABLED)
         
+        self.storage_calculator = StorageCalculator(output_dir=self.output_dir)
+        self.stop_button.config(state=tk.NORMAL)
+        
         def run_calculate():
-            calculator = StorageCalculator(output_dir=self.output_dir)
             report_files = [os.path.join(self.output_dir, f) for f in os.listdir(self.output_dir) if f.startswith('K') and f.endswith('.xlsx')]
             
             def progress_callback(msg):
                 self.update_progress(self.process_progress, msg)
             
-            results = calculator.process_all(report_files, progress_callback)
+            results = self.storage_calculator.process_all(report_files, progress_callback)
+            
+            self.stop_button.config(state=tk.DISABLED)
             
             self.update_progress(self.process_progress, f"\n计算完成！")
             self.update_progress(self.process_progress, f"成功: {len(results['success'])}")
             self.update_progress(self.process_progress, f"失败: {len(results['failed'])}")
             
         Thread(target=run_calculate).start()
+    
+    def stop_calculation(self):
+        if self.storage_calculator:
+            self.storage_calculator.stop()
+            self.stop_button.config(state=tk.DISABLED)
         
     def check_section(self):
         self.check_results.config(state=tk.NORMAL)
@@ -451,96 +440,25 @@ TEMPLATE_DIR={self.template_dir}
         self.check_results.config(state=tk.DISABLED)
         
         def run_check():
-            checker = DataChecker()
-            csv_files = get_all_csv_files(self.data_dir)
+            checker = DataChecker(output_dir=self.output_dir)
+            xlsx_files = get_all_xlsx_files(self.output_dir)
             
             def progress_callback(msg):
                 self.update_progress(self.check_results, msg)
             
-            for csv_file in csv_files:
-                checker.check_section(csv_file, progress_callback)
+            if not xlsx_files:
+                self.update_progress(self.check_results, "未找到成果表文件")
+                return
+            
+            for xlsx_file in xlsx_files:
+                checker.check_report_file(xlsx_file, progress_callback)
             
             report_path = checker.generate_report()
             if report_path:
                 self.update_progress(self.check_results, f"\n报告已生成: {report_path}")
             
         Thread(target=run_check).start()
-        
-    def find_empty_sections(self):
-        self.check_results.config(state=tk.NORMAL)
-        self.check_results.delete(1.0, tk.END)
-        self.check_results.config(state=tk.DISABLED)
-        
-        def run_find():
-            checker = DataChecker()
-            csv_files = get_all_csv_files(self.data_dir)
-            
-            def progress_callback(msg):
-                self.update_progress(self.check_results, msg)
-            
-            empty_files = checker.find_empty_sections(csv_files, progress_callback)
-            
-            if empty_files:
-                self.update_progress(self.check_results, f"\n发现空白断面:")
-                for f in empty_files:
-                    self.update_progress(self.check_results, f"  - {f}")
-            else:
-                self.update_progress(self.check_results, f"\n未发现空白断面")
-            
-        Thread(target=run_find).start()
-        
-    def check_roughness(self):
-        self.check_results.config(state=tk.NORMAL)
-        self.check_results.delete(1.0, tk.END)
-        self.check_results.config(state=tk.DISABLED)
-        
-        def run_check():
-            checker = DataChecker()
-            csv_files = get_all_csv_files(DATA_DIR)
-            
-            def progress_callback(msg):
-                self.update_progress(self.check_results, msg)
-            
-            for csv_file in csv_files:
-                checker.check_roughness(csv_file, progress_callback)
-            
-            report_path = checker.generate_report()
-            if report_path:
-                self.update_progress(self.check_results, f"\n报告已生成: {report_path}")
-            
-        Thread(target=run_check).start()
-        
-    def generate_check_report(self):
-        checker = DataChecker()
-        csv_files = get_all_csv_files(DATA_DIR)
-        
-        for csv_file in csv_files:
-            checker.check_section(csv_file)
-        
-        report_path = checker.generate_report()
-        if report_path:
-            messagebox.showinfo("报告生成", f"报告已生成: {report_path}")
-            os.startfile(report_path)
-        else:
-            messagebox.showerror("错误", "生成报告失败")
-            
-    def update_stats(self, results):
-        self.stats_labels['total'].config(text=f"总文件数: {results['total']}")
-        self.stats_labels['success'].config(text=f"成功: {len(results['success'])}")
-        self.stats_labels['failed'].config(text=f"失败: {len(results['failed'])}")
-        
-    def backup_data(self):
-        files_to_backup = []
-        
-        for root, dirs, files in os.walk(DATA_DIR):
-            for file in files:
-                files_to_backup.append(os.path.join(root, file))
-        
-        for f in files_to_backup[:10]:
-            backup_file(f)
-        
-        messagebox.showinfo("备份完成", f"已备份 {min(len(files_to_backup), 10)} 个文件")
-        
+    
     def open_output_dir(self):
         os.startfile(OUTPUT_DIR)
 
