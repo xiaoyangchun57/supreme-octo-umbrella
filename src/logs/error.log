@@ -1,0 +1,10 @@
+[2026-05-15 16:55:32] [ERROR] 文件夹整理失败
+Exception: 对应表不存在: E:\杂七杂八\trea项目\xiang\dist\成果\对应表.xlsm
+[2026-05-15 16:55:32] [ERROR] 文件合并失败
+Exception: 对应表不存在: E:\杂七杂八\trea项目\xiang\dist\成果\对应表.xlsx
+[2026-05-15 16:56:26] [ERROR] 文件夹整理失败
+Exception: 对应表不存在
+[2026-05-15 16:56:26] [ERROR] 文件合并失败
+Exception: 对应表不存在: E:\杂七杂八\trea项目\xiang\src\模板\对应表.xlsm
+[2026-05-15 17:04:00] [ERROR] 文件合并失败
+Exception: At least one sheet must be visible

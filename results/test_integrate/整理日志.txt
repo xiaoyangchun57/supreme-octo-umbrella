@@ -1,0 +1,10 @@
+===== 开始整理 2026-05-15 12:02:15 =====
+警告：Sheet4的A1或A2为空，跳过
+创建一级文件夹: E:\杂七杂八\trea项目\xiang\results\test_integrate\测试成果
+创建二级文件夹: E:\杂七杂八\trea项目\xiang\results\test_integrate\测试成果\断面数据
+创建三级文件夹: E:\杂七杂八\trea项目\xiang\results\test_integrate\测试成果\断面数据\横断面_测试
+复制文件: E:\杂七杂八\trea项目\xiang\results\test_integrate\沟道横断面成果表_AFAE90012A000000ZBCS004.xlsx -> E:\杂七杂八\trea项目\xiang\results\test_integrate\测试成果\断面数据\横断面_测试\沟道横断面成果表_AFAE90012A000000ZBCS004.xlsx
+复制文件: E:\杂七杂八\trea项目\xiang\results\test_integrate\沟道横断面成果表_AFAE90012B000000ZBCS002.xlsx -> E:\杂七杂八\trea项目\xiang\results\test_integrate\测试成果\断面数据\横断面_测试\沟道横断面成果表_AFAE90012B000000ZBCS002.xlsx
+跳过已存在: 沟道横断面成果表_AFAE90012A000000ZBCS004.xlsx
+跳过已存在: 沟道横断面成果表_AFAE90012B000000ZBCS002.xlsx
+创建三级文件夹: E:\杂七杂八\trea项目\xiang\results\test_integrate\测试成果\断面数据\纵断面_测试
