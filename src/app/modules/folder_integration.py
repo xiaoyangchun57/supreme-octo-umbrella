@@ -342,7 +342,17 @@ class FolderIntegrator:
         self.results = {"success": [], "failed": [], "total": 2}
         self.log_text = ""
         
+        if progress_callback:
+            progress_callback("开始整理文件...")
+        
         self.organize_files(root_path)
+        
+        if progress_callback:
+            progress_callback("文件整理完成，开始合并文件...")
+        
         self.merge_files(root_path)
+        
+        if progress_callback:
+            progress_callback("文件合并完成！")
         
         return self.results

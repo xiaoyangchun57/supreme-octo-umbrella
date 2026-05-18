@@ -1,0 +1,1 @@
+"""Views module - contains all UI views for the application."""

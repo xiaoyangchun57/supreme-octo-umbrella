@@ -14,12 +14,12 @@ class DataChecker:
     
     def _is_target_folder(self, file_path):
         """判断是否为目标文件夹（防治对象、跨沟道路、桥涵）"""
-        folder_path = os.path.dirname(file_path)
-        folder_name = os.path.basename(folder_path).lower()
-        return '防治对象' in folder_name or '跨沟道路' in folder_name or '桥涵' in folder_name
+        full_path = os.path.abspath(file_path)
+        lower_path = full_path.lower()
+        return '防治对象' in lower_path or '跨沟道路' in lower_path or '桥涵' in lower_path
     
     def _is_cross_section_report(self, xlsx_file):
-        """判断是否为横断面成果表"""
+        """判断是否为横断面成果表（位于目标文件夹中且文件名包含横断面）"""
         if not self._is_target_folder(xlsx_file):
             return False
         file_name = os.path.basename(xlsx_file).lower()
@@ -113,10 +113,6 @@ class DataChecker:
                 
                 if roughness_issues:
                     errors.append(f"Sheet '{sheet_name}': 糙率填写不完整（{len(roughness_issues)}处）")
-                    for issue in roughness_issues[:3]:
-                        errors.append(f"  {issue}")
-                    if len(roughness_issues) > 3:
-                        errors.append(f"  ... 等共{len(roughness_issues)}处")
                 
                 if distance_issues:
                     errors.append(f"Sheet '{sheet_name}': 起点距不递增（{len(distance_issues)}处）")

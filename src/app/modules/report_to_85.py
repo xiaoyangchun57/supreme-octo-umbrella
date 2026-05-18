@@ -148,13 +148,19 @@ class ReportTo85Converter:
     def process_all(self, report_files, progress_callback=None):
         """批量转换所有成果表"""
         self.results = {'success': [], 'failed': [], 'total': len(report_files)}
+        completed_count = 0
         
         if not self.ref_data:
             if not self.load_ref_data():
                 return self.results
         
         for report_file in report_files:
-            self.convert_to_85(report_file, progress_callback)
+            self.convert_to_85(report_file, None)
+            
+            completed_count += 1
+            if progress_callback:
+                progress_callback(f"已转换85高程: {os.path.basename(report_file)}")
+                progress_callback(f"已完成 {completed_count}/{len(report_files)}")
         
         if progress_callback and self.results['failed']:
             progress_callback(f"\n===== 失败详情 =====")

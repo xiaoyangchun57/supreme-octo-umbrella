@@ -3,6 +3,9 @@ import shutil
 import openpyxl
 import zipfile
 import re
+import gc
+import time
+from threading import Lock
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from ..utils import log_message, log_error
 from ..config import DEFAULT_OUTPUT_DIR as OUTPUT_DIR, DEFAULT_TEMPLATE_DIR as TEMPLATE_DIR
@@ -18,6 +21,8 @@ class AutoPlotter:
         self.dict_sheet2 = {}
         self.output_dir = output_dir if output_dir else OUTPUT_DIR
         self.template_dir = template_dir if template_dir else TEMPLATE_DIR
+        self._file_locks = {}
+        self._lock = Lock()
     
     def _load_mapping_dict(self):
         """从对应表加载映射字典"""
@@ -37,6 +42,8 @@ class AutoPlotter:
             if 'Sheet2' in wb.sheetnames:
                 self._fill_dictionary_from_sheet(wb['Sheet2'], self.dict_sheet2, 8)
             
+            wb.close()
+            wb = None
             log_message(f"成功加载映射字典，Sheet1: {len(self.dict_sheet1)}条，Sheet2: {len(self.dict_sheet2)}条")
         except Exception as e:
             log_error("加载映射字典失败", e)
@@ -72,6 +79,8 @@ class AutoPlotter:
     
     def _transfer_data(self, src_path, dest_path):
         """传输数据（严格按照VB代码逻辑）"""
+        wb_src = None
+        wb_dest = None
         try:
             wb_src = openpyxl.load_workbook(src_path, data_only=True, read_only=True)
             src_sheet = wb_src.active
@@ -85,8 +94,6 @@ class AutoPlotter:
             if is_profile:
                 last_row = self._find_last_row(src_sheet, 'C,E')
                 if last_row < 11:
-                    wb_src.close()
-                    wb_dest.close()
                     raise ValueError("纵断面数据不足，需要至少到C11:E11")
                 
                 col_c = []
@@ -107,8 +114,6 @@ class AutoPlotter:
             else:
                 last_row = self._find_last_row(src_sheet, 'C,D')
                 if last_row < 13:
-                    wb_src.close()
-                    wb_dest.close()
                     raise ValueError("横断面数据不足，需要至少到C13:D13")
                 
                 src_data = []
@@ -130,15 +135,31 @@ class AutoPlotter:
             
             wb_dest.save(dest_path)
             wb_dest.close()
+            wb_dest = None
             wb_src.close()
+            wb_src = None
             
             return True
         except Exception as e:
             log_error("数据传输失败", e)
             return False
+        finally:
+            try:
+                if wb_src:
+                    wb_src.close()
+                    wb_src = None
+            except:
+                pass
+            try:
+                if wb_dest:
+                    wb_dest.close()
+                    wb_dest = None
+            except:
+                pass
     
     def _modify_output_file(self, file_path):
         """修改输出文件（填写表头信息）"""
+        wb = None
         try:
             wb = openpyxl.load_workbook(file_path)
             sht = wb.active
@@ -146,7 +167,7 @@ class AutoPlotter:
             file_name = os.path.splitext(os.path.basename(file_path))[0]
             
             sht['B2'] = file_name
-            sht.title = file_name
+            sht.title = file_name[:31]
             sht.sheet_properties.tabColor = "FFC000"
             
             value_to_fill = ""
@@ -169,9 +190,12 @@ class AutoPlotter:
             
             wb.save(file_path)
             wb.close()
+            wb = None
             
             import zipfile
             import re
+            
+            temp_path = file_path + '.tmp'
             
             with zipfile.ZipFile(file_path, 'r') as z:
                 content = z.read('xl/charts/chart1.xml').decode('utf-8')
@@ -180,7 +204,6 @@ class AutoPlotter:
             
             content = re.sub(r"<c:numCache>.*?</c:numCache>", "<c:numCache><c:ptCount val=\"0\"/></c:numCache>", content, flags=re.DOTALL)
             
-            temp_path = file_path + '.tmp'
             with zipfile.ZipFile(temp_path, 'w') as z_out:
                 with zipfile.ZipFile(file_path, 'r') as z_in:
                     for name in z_in.namelist():
@@ -189,13 +212,37 @@ class AutoPlotter:
                         else:
                             z_out.writestr(name, z_in.read(name))
             
-            os.remove(file_path)
-            os.rename(temp_path, file_path)
+            gc.collect()
+            time.sleep(0.3)
+            
+            max_retries = 3
+            retry_delay = 0.2
+            
+            for attempt in range(max_retries):
+                try:
+                    if os.path.exists(file_path):
+                        os.remove(file_path)
+                    os.rename(temp_path, file_path)
+                    break
+                except (PermissionError, OSError) as e:
+                    if attempt < max_retries - 1:
+                        log_message(f"文件操作重试 {attempt + 1}/{max_retries}: {str(e)}")
+                        gc.collect()
+                        time.sleep(retry_delay)
+                    else:
+                        raise
             
             return True
         except Exception as e:
             log_error("修改输出文件失败", e)
             return False
+        finally:
+            try:
+                if wb:
+                    wb.close()
+                    wb = None
+            except:
+                pass
     
     def generate_plot(self, report_file, progress_callback=None):
         """根据成果表生成图形（严格按照VB代码逻辑）"""
@@ -222,10 +269,33 @@ class AutoPlotter:
             output_name = f"{output_base_name}.xlsx"
             output_path = os.path.join(self.output_dir, output_name)
             
-            if os.path.exists(output_path):
-                os.remove(output_path)
+            gc.collect()
+            time.sleep(0.3)
             
-            shutil.copy(template_path, output_path)
+            max_retries = 3
+            retry_delay = 0.2
+            
+            for attempt in range(max_retries):
+                try:
+                    if os.path.exists(output_path):
+                        try:
+                            os.remove(output_path)
+                        except (PermissionError, OSError) as e:
+                            if attempt < max_retries - 1:
+                                log_message(f"删除旧文件重试 {attempt + 1}/{max_retries}")
+                                gc.collect()
+                                time.sleep(retry_delay)
+                                continue
+                            else:
+                                raise
+                    shutil.copy(template_path, output_path)
+                    break
+                except Exception as e:
+                    if attempt < max_retries - 1:
+                        gc.collect()
+                        time.sleep(retry_delay)
+                    else:
+                        raise
             
             if not self._transfer_data(report_file, output_path):
                 self.results['failed'].append((file_name, "数据传输失败"))
@@ -248,8 +318,84 @@ class AutoPlotter:
             log_error(f"生成图形失败: {file_name}", e)
             return False
     
+    def _generate_plot_thread(self, report_file):
+        """单线程生成图形（供多线程调用）"""
+        max_retries = 2
+        retry_delay = 0.5
+        
+        for attempt in range(max_retries):
+            try:
+                gc.collect()
+                
+                if not os.path.exists(report_file):
+                    return False, os.path.basename(report_file), "文件不存在"
+                
+                template_path = os.path.join(self.template_dir, '成图模板.xlsx')
+                if not os.path.exists(template_path):
+                    return False, os.path.basename(report_file), "成图模板不存在"
+                
+                file_name = os.path.basename(report_file)
+                base_name = os.path.splitext(file_name)[0]
+                
+                parts = base_name.split('_')
+                if len(parts) > 1:
+                    output_base_name = parts[-1]
+                else:
+                    output_base_name = base_name
+                
+                output_name = f"{output_base_name}.xlsx"
+                output_path = os.path.join(self.output_dir, output_name)
+                
+                gc.collect()
+                time.sleep(0.3)
+                
+                if os.path.exists(output_path):
+                    try:
+                        os.remove(output_path)
+                        gc.collect()
+                        time.sleep(0.2)
+                    except (PermissionError, OSError) as e:
+                        if attempt < max_retries - 1:
+                            log_message(f"删除旧文件重试 {attempt + 1}/{max_retries}: {file_name}")
+                            gc.collect()
+                            time.sleep(retry_delay)
+                            continue
+                        else:
+                            return False, os.path.basename(report_file), f"文件操作失败: {str(e)}"
+                
+                shutil.copy(template_path, output_path)
+                gc.collect()
+                time.sleep(0.2)
+                
+                if not self._transfer_data(report_file, output_path):
+                    if attempt < max_retries - 1:
+                        log_message(f"数据传输失败，重试 {attempt + 1}/{max_retries}: {file_name}")
+                        gc.collect()
+                        time.sleep(retry_delay)
+                        continue
+                    return False, file_name, "数据传输失败"
+                
+                if not self._modify_output_file(output_path):
+                    if attempt < max_retries - 1:
+                        log_message(f"修改输出文件失败，重试 {attempt + 1}/{max_retries}: {file_name}")
+                        gc.collect()
+                        time.sleep(retry_delay)
+                        continue
+                    return False, file_name, "修改输出文件失败"
+                
+                return True, file_name, output_name
+            except (PermissionError, OSError) as e:
+                if attempt < max_retries - 1:
+                    log_message(f"文件操作冲突，重试 {attempt + 1}/{max_retries}: {os.path.basename(report_file)}")
+                    gc.collect()
+                    time.sleep(retry_delay)
+                else:
+                    return False, os.path.basename(report_file), f"文件操作失败: {str(e)}"
+            except Exception as e:
+                return False, os.path.basename(report_file), str(e)
+    
     def process_all(self, report_files, progress_callback=None, max_workers=4):
-        """批量生成图形（多线程并行处理）"""
+        """批量生成图形（使用合理并发线程）"""
         self.results = {'success': [], 'failed': [], 'total': len(report_files)}
         
         if not self.dict_sheet1:
@@ -282,40 +428,3 @@ class AutoPlotter:
                 progress_callback(f"失败: {item[0]} - {item[1]}")
         
         return self.results
-    
-    def _generate_plot_thread(self, report_file):
-        """单线程生成图形（供多线程调用）"""
-        try:
-            if not os.path.exists(report_file):
-                return False, os.path.basename(report_file), "文件不存在"
-            
-            template_path = os.path.join(self.template_dir, '成图模板.xlsx')
-            if not os.path.exists(template_path):
-                return False, os.path.basename(report_file), "成图模板不存在"
-            
-            file_name = os.path.basename(report_file)
-            base_name = os.path.splitext(file_name)[0]
-            
-            parts = base_name.split('_')
-            if len(parts) > 1:
-                output_base_name = parts[-1]
-            else:
-                output_base_name = base_name
-            
-            output_name = f"{output_base_name}.xlsx"
-            output_path = os.path.join(self.output_dir, output_name)
-            
-            if os.path.exists(output_path):
-                os.remove(output_path)
-            
-            shutil.copy(template_path, output_path)
-            
-            if not self._transfer_data(report_file, output_path):
-                return False, file_name, "数据传输失败"
-            
-            if not self._modify_output_file(output_path):
-                return False, file_name, "修改输出文件失败"
-            
-            return True, file_name, output_name
-        except Exception as e:
-            return False, os.path.basename(report_file), str(e)

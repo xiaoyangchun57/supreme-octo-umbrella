@@ -122,3 +122,5 @@ Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\dist\断面�
 Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\dist\断面数据处理系统\templates\纵断面模板.xlsx
 [2026-05-15 14:15:55] [ERROR] 转换纵断面失败: Z2.csv
 Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\dist\断面数据处理系统\templates\纵断面模板.xlsx
+[2026-05-16 11:32:40] [ERROR] 库容计算失败
+Exception: 'Worksheet' object has no attribute 'copy_worksheet'

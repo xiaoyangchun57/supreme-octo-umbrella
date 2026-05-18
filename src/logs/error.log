@@ -8,3 +8,805 @@ Exception: 对应表不存在
 Exception: 对应表不存在: E:\杂七杂八\trea项目\xiang\src\模板\对应表.xlsm
 [2026-05-15 17:04:00] [ERROR] 文件合并失败
 Exception: At least one sheet must be visible
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B1.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B10.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B11.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B12.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B14.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B15.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B16.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B17.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B18.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B19.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B199.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B2.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B20.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B201.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B202.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B25.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B26.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B27.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B28.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B29.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B299.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B3.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B30.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B300.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B301.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B31.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B32.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B33.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B37.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B38.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B39.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B4.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B40.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B41.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B44.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B45.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B5.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B505.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B601.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B602.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B7.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: B8.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K001.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K198.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K199.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K201.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K300.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K301.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K410.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K411.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K412.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K511.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K55.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K56.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K58.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K59.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K605.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K606.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K607.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K608.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K609.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K81.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K82.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K83.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K84.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K86.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K87.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K88.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K89.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换库容断面失败: K91.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q001.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q002.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q1.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q10.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q11.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q12.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q13.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q14.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q2.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q21.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q22.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q23.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q24.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q25.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q26.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q27.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q28.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q29.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q3.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q30.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q301.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q302.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q31.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q32.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q33.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q34.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q35.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q36.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q37.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q38.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q39.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q4.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q40.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q41.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q42.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q7.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q8.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换横断面失败: Q9.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\横断面成果表模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z1.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z10.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z11.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z13.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z14.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z2.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z4.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z401.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z6.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z7.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:57:49] [ERROR] 转换纵断面失败: Z704.csv
+Exception: 模板文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\纵断面模板.xlsx
+[2026-05-16 15:58:17] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 15:58:17] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 15:58:19] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 15:58:19] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 15:58:19] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 15:58:19] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 15:58:19] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 15:59:49] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z10.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z10.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900128H00000ZACS004.xlsx'
+[2026-05-16 15:59:49] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z704.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 15:59:54] [ERROR] 生成图形失败: Z10.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z10.xlsx'
+[2026-05-16 16:00:03] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:00:03] [ERROR] 生成图形失败: Z704.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:32:09] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:32:09] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:32:11] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:32:11] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:32:11] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:32:11] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:32:11] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:32:32] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q29.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q29.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121D00000ZBCS001.xlsx'
+[2026-05-16 16:32:32] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q37.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q37.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900122HF0000ZBCS009.xlsx'
+[2026-05-16 16:32:32] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q7.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q7.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000000ZBCS005.xlsx'
+[2026-05-16 16:32:32] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q8.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q8.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000005ZBCS006.xlsx'
+[2026-05-16 16:32:32] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q9.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q9.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012A000000ZBCS001.xlsx'
+[2026-05-16 16:32:32] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z401.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 16:32:32] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z6.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 16:32:32] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z704.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 16:32:35] [ERROR] 生成图形失败: Q29.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q29.xlsx'
+[2026-05-16 16:32:35] [ERROR] 生成图形失败: Q37.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q37.xlsx'
+[2026-05-16 16:33:15] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:33:15] [ERROR] 生成图形失败: Q8.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:33:16] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:33:16] [ERROR] 生成图形失败: Q9.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:33:16] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:33:16] [ERROR] 生成图形失败: K91.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:33:16] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:33:16] [ERROR] 生成图形失败: Q7.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:33:55] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:33:55] [ERROR] 生成图形失败: Z401.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:33:55] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:33:55] [ERROR] 生成图形失败: Z7.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:33:57] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:33:57] [ERROR] 生成图形失败: Z704.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:33:57] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:33:57] [ERROR] 生成图形失败: Z6.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:36:09] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012A000000ZACS012.xlsx'
+[2026-05-16 16:36:09] [ERROR] 生成图形失败: 沟道纵断面成果表_AFAE90012A000000ZACS012.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:36:09] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012D000000ZACS002.xlsx'
+[2026-05-16 16:36:09] [ERROR] 生成图形失败: 沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:45:52] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:45:52] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:45:54] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:45:54] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:45:54] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:45:54] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:45:54] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:46:11] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q29.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q29.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121D00000ZBCS001.xlsx'
+[2026-05-16 16:46:11] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q37.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q37.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900122HF0000ZBCS009.xlsx'
+[2026-05-16 16:46:11] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q7.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q7.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000000ZBCS005.xlsx'
+[2026-05-16 16:46:11] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q8.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q8.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000005ZBCS006.xlsx'
+[2026-05-16 16:46:11] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q9.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q9.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012A000000ZBCS001.xlsx'
+[2026-05-16 16:46:11] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z401.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 16:46:11] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z6.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 16:46:11] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z704.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 16:46:32] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:46:32] [ERROR] 生成图形失败: K91.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:46:32] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:46:32] [ERROR] 生成图形失败: Q29.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:46:50] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:46:50] [ERROR] 生成图形失败: Q37.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:46:51] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:46:51] [ERROR] 生成图形失败: Q7.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:47:08] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:47:08] [ERROR] 生成图形失败: Q8.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:47:09] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:47:09] [ERROR] 生成图形失败: Q9.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:47:27] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:47:27] [ERROR] 生成图形失败: Z401.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:47:27] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:47:27] [ERROR] 生成图形失败: Z6.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:47:46] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:47:46] [ERROR] 生成图形失败: Z7.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:47:46] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-16 16:47:46] [ERROR] 生成图形失败: Z704.xlsx
+Exception: 数据传输失败
+[2026-05-16 16:48:14] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE900121F00000ZACS001.xlsx'
+[2026-05-16 16:48:14] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE900121F00000ZACS001.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:48:14] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE900121F00000ZACS002.xlsx'
+[2026-05-16 16:48:14] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE900121F00000ZACS002.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:48:28] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE900122HF0000ZACS006.xlsx'
+[2026-05-16 16:48:28] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE900122HF0000ZACS006.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:48:28] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE900122HF0000ZACS005.xlsx'
+[2026-05-16 16:48:28] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE900122HF0000ZACS005.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:02] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE900128H00000ZBCS008.xlsx'
+[2026-05-16 16:49:02] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE900128H00000ZBCS008.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:02] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE900128H00000ZBCS010.xlsx'
+[2026-05-16 16:49:02] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE900128H00000ZBCS010.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:12] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012A000000ZACS009.xlsx'
+[2026-05-16 16:49:12] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE90012A000000ZACS009.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:19] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012A000000ZBCS005.xlsx'
+[2026-05-16 16:49:19] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE90012A000000ZBCS005.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:19] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012A000000ZBCS006.xlsx'
+[2026-05-16 16:49:19] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE90012A000000ZBCS006.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:29] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012C000000ZACS001.xlsx'
+[2026-05-16 16:49:29] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE90012C000000ZACS001.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:29] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012C000000ZACS002.xlsx'
+[2026-05-16 16:49:29] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE90012C000000ZACS002.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:35] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012D000000ZBCS002.xlsx'
+[2026-05-16 16:49:35] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE90012D000000ZBCS002.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:35] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012D000000ZBCS003.xlsx'
+[2026-05-16 16:49:35] [ERROR] 生成图形失败: 沟道横断面成果表_AFAE90012D000000ZBCS003.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:48] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE900128H00000ZACS004.xlsx'
+[2026-05-16 16:49:48] [ERROR] 生成图形失败: 沟道纵断面成果表_AFAE900128H00000ZACS004.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:49:48] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE900128H00000ZACS008.xlsx'
+[2026-05-16 16:49:48] [ERROR] 生成图形失败: 沟道纵断面成果表_AFAE900128H00000ZACS008.xlsx
+Exception: 修改输出文件失败
+[2026-05-16 16:54:28] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:54:28] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:54:30] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:54:30] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:54:30] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:54:30] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:54:30] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 16:55:15] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q29.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q29.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121D00000ZBCS001.xlsx'
+[2026-05-16 16:55:15] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q37.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q37.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900122HF0000ZBCS009.xlsx'
+[2026-05-16 16:55:15] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q7.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q7.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000000ZBCS005.xlsx'
+[2026-05-16 16:55:15] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q8.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q8.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000005ZBCS006.xlsx'
+[2026-05-16 16:55:15] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q9.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q9.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012A000000ZBCS001.xlsx'
+[2026-05-16 16:55:15] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z401.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 16:55:15] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z6.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 16:55:15] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z704.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 17:00:08] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:00:08] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:00:10] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:00:10] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:00:10] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:00:10] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:00:10] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:00:39] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q29.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q29.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121D00000ZBCS001.xlsx'
+[2026-05-16 17:00:39] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q37.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q37.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900122HF0000ZBCS009.xlsx'
+[2026-05-16 17:00:39] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q7.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q7.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000000ZBCS005.xlsx'
+[2026-05-16 17:00:39] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q8.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q8.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000005ZBCS006.xlsx'
+[2026-05-16 17:00:39] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q9.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q9.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012A000000ZBCS001.xlsx'
+[2026-05-16 17:00:39] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z401.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 17:00:39] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z6.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 17:00:39] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z704.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 17:51:09] [ERROR] 加载对应表Sheet1失败
+Exception: 对应表文件不存在: E:\杂七杂八\trea项目\xiang\src\模板\对应表.xlsm
+[2026-05-16 17:51:09] [ERROR] 加载Sheet1失败
+Exception: 无法继续
+[2026-05-16 17:51:39] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:51:39] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:51:41] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:51:41] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:51:41] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:51:41] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:51:41] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 17:51:55] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q29.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q29.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121D00000ZBCS001.xlsx'
+[2026-05-16 17:51:55] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q37.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q37.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900122HF0000ZBCS009.xlsx'
+[2026-05-16 17:51:55] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q7.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q7.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000000ZBCS005.xlsx'
+[2026-05-16 17:51:55] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q8.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q8.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000005ZBCS006.xlsx'
+[2026-05-16 17:51:55] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q9.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q9.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012A000000ZBCS001.xlsx'
+[2026-05-16 17:51:55] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z401.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 17:51:55] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z6.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 17:51:55] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z704.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 18:01:43] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:01:43] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:01:45] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:01:45] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:01:45] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:01:45] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:01:45] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:02:05] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q29.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q29.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121D00000ZBCS001.xlsx'
+[2026-05-16 18:02:05] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q37.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q37.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900122HF0000ZBCS009.xlsx'
+[2026-05-16 18:02:05] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q7.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q7.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000000ZBCS005.xlsx'
+[2026-05-16 18:02:05] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q8.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q8.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012C000005ZBCS006.xlsx'
+[2026-05-16 18:02:05] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Q9.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q9.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012A000000ZBCS001.xlsx'
+[2026-05-16 18:02:06] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z401.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 18:02:06] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z6.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 18:02:06] [ERROR] 重命名失败: E:/杂七杂八/trea项目/xiang/dist\成果\Z704.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 18:17:10] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:17:10] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:17:12] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:17:12] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:17:12] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:17:12] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:17:12] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:17:42] [ERROR] 重命名失败: Q23.xlsx -> 沟道横断面成果表_AFAE900128H00000ZBCS007.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q23.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900128H00000ZBCS007.xlsx'
+[2026-05-16 18:17:42] [ERROR] 重命名失败: Q4.xlsx -> 沟道横断面成果表_AFAE90012E000000ZBCS005.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q4.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012E000000ZBCS005.xlsx'
+[2026-05-16 18:17:42] [ERROR] 重命名失败: Q42.xlsx -> 沟道横断面成果表_AFAE900121B00000ZBCS002.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q42.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121B00000ZBCS002.xlsx'
+[2026-05-16 18:17:42] [ERROR] 重命名失败: Z1.xlsx -> 沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z1.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx'
+[2026-05-16 18:17:42] [ERROR] 重命名失败: Z4.xlsx -> 沟道纵断面成果表_AFAE900121E00000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z4.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121E00000ZACS004.xlsx'
+[2026-05-16 18:17:42] [ERROR] 重命名失败: Z401.xlsx -> 沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 18:17:42] [ERROR] 重命名失败: Z6.xlsx -> 沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 18:17:42] [ERROR] 重命名失败: Z704.xlsx -> 沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 18:27:01] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:27:01] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:27:03] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:27:03] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:27:03] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:27:03] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:27:03] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:27:22] [ERROR] 重命名失败: Q23.xlsx -> 沟道横断面成果表_AFAE900128H00000ZBCS007.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q23.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900128H00000ZBCS007.xlsx'
+[2026-05-16 18:27:22] [ERROR] 重命名失败: Q4.xlsx -> 沟道横断面成果表_AFAE90012E000000ZBCS005.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q4.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012E000000ZBCS005.xlsx'
+[2026-05-16 18:27:22] [ERROR] 重命名失败: Q42.xlsx -> 沟道横断面成果表_AFAE900121B00000ZBCS002.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q42.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121B00000ZBCS002.xlsx'
+[2026-05-16 18:27:22] [ERROR] 重命名失败: Z1.xlsx -> 沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z1.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx'
+[2026-05-16 18:27:22] [ERROR] 重命名失败: Z4.xlsx -> 沟道纵断面成果表_AFAE900121E00000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z4.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121E00000ZACS004.xlsx'
+[2026-05-16 18:27:22] [ERROR] 重命名失败: Z401.xlsx -> 沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 18:27:22] [ERROR] 重命名失败: Z6.xlsx -> 沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 18:27:22] [ERROR] 重命名失败: Z704.xlsx -> 沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 18:35:48] [ERROR] 重命名失败: Z704.xlsx -> 沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 18:36:50] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:36:50] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:36:52] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:36:52] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:36:52] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:36:52] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:36:52] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:38:38] [ERROR]   ✗ 重命名失败: Q23.xlsx -> 沟道横断面成果表_AFAE900128H00000ZBCS007.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q23.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900128H00000ZBCS007.xlsx'
+[2026-05-16 18:38:38] [ERROR]   ✗ 重命名失败: Q4.xlsx -> 沟道横断面成果表_AFAE90012E000000ZBCS005.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q4.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012E000000ZBCS005.xlsx'
+[2026-05-16 18:38:38] [ERROR]   ✗ 重命名失败: Q42.xlsx -> 沟道横断面成果表_AFAE900121B00000ZBCS002.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q42.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121B00000ZBCS002.xlsx'
+[2026-05-16 18:38:38] [ERROR]   ✗ 重命名失败: Z1.xlsx -> 沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z1.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx'
+[2026-05-16 18:38:38] [ERROR]   ✗ 重命名失败: Z4.xlsx -> 沟道纵断面成果表_AFAE900121E00000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z4.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121E00000ZACS004.xlsx'
+[2026-05-16 18:38:38] [ERROR]   ✗ 重命名失败: Z401.xlsx -> 沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 18:38:38] [ERROR]   ✗ 重命名失败: Z6.xlsx -> 沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 18:38:38] [ERROR]   ✗ 重命名失败: Z704.xlsx -> 沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-16 18:44:25] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:44:25] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:44:27] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:44:27] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:44:27] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:44:27] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:44:27] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-16 18:45:19] [ERROR]   ✗ 重命名失败: Q23.xlsx -> 沟道横断面成果表_AFAE900128H00000ZBCS007.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q23.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900128H00000ZBCS007.xlsx'
+[2026-05-16 18:45:19] [ERROR]   ✗ 重命名失败: Q4.xlsx -> 沟道横断面成果表_AFAE90012E000000ZBCS005.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q4.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE90012E000000ZBCS005.xlsx'
+[2026-05-16 18:45:19] [ERROR]   ✗ 重命名失败: Q42.xlsx -> 沟道横断面成果表_AFAE900121B00000ZBCS002.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Q42.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道横断面成果表_AFAE900121B00000ZBCS002.xlsx'
+[2026-05-16 18:45:19] [ERROR]   ✗ 重命名失败: Z1.xlsx -> 沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z1.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx'
+[2026-05-16 18:45:19] [ERROR]   ✗ 重命名失败: Z4.xlsx -> 沟道纵断面成果表_AFAE900121E00000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z4.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121E00000ZACS004.xlsx'
+[2026-05-16 18:45:19] [ERROR]   ✗ 重命名失败: Z401.xlsx -> 沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z401.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900122HF0000ZACS017.xlsx'
+[2026-05-16 18:45:19] [ERROR]   ✗ 重命名失败: Z6.xlsx -> 沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z6.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE900121D00000ZACS004.xlsx'
+[2026-05-16 18:45:19] [ERROR]   ✗ 重命名失败: Z704.xlsx -> 沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\Z704.xlsx' -> 'E:/杂七杂八/trea项目/xiang/dist\\成果\\沟道纵断面成果表_AFAE90012A000000ZACS004.xlsx'
+[2026-05-18 08:46:44] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 08:46:44] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 08:46:46] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 08:46:46] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 08:46:46] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 08:46:47] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 08:46:47] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 08:50:06] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012A000000ZACS012.xlsx'
+[2026-05-18 08:50:06] [ERROR] 修改输出文件失败
+Exception: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012D000000ZACS002.xlsx'
+[2026-05-18 08:50:07] [ERROR] 生成图形失败: 沟道纵断面成果表_AFAE90012A000000ZACS012.xlsx
+Exception: 文件操作失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012A000000ZACS012.xlsx'
+[2026-05-18 08:50:07] [ERROR] 生成图形失败: 沟道纵断面成果表_AFAE90012D000000ZACS002.xlsx
+Exception: 文件操作失败: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:/杂七杂八/trea项目/xiang/dist\\成果\\AFAE90012D000000ZACS002.xlsx'
+[2026-05-18 09:36:12] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 09:36:12] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 09:36:14] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 09:36:14] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 09:36:14] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 09:36:14] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 09:36:14] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:16:48] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:16:48] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:16:50] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:16:50] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:16:50] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:16:50] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:16:50] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:17:52] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:17:52] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:17:54] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:17:54] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:17:54] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:17:54] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:17:54] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:24:53] [ERROR] 转换横断面失败: B299.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:24:53] [ERROR] 转换横断面失败: B301.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:24:55] [ERROR] 转换横断面失败: Q13.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:24:55] [ERROR] 转换横断面失败: Q21.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:24:55] [ERROR] 转换横断面失败: Q22.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:24:56] [ERROR] 转换横断面失败: Q27.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:24:56] [ERROR] 转换横断面失败: Q28.csv
+Exception: 无法找到ZJ或YJ点
+[2026-05-18 11:25:49] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-18 11:25:49] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-18 11:26:26] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-18 11:26:26] [ERROR] 生成图形失败: K91.xlsx
+Exception: 数据传输失败
+[2026-05-18 11:26:27] [ERROR] 数据传输失败
+Exception: 横断面数据不足，需要至少到C13:D13
+[2026-05-18 11:26:27] [ERROR] 生成图形失败: Z7.xlsx
+Exception: 数据传输失败

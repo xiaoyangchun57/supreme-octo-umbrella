@@ -750,19 +750,25 @@ class CsvToReportConverter:
     def process_all(self, csv_files, progress_callback=None):
         """批量处理所有CSV文件"""
         self.results = {'success': [], 'failed': [], 'total': len(csv_files)}
+        completed_count = 0
         
         for csv_file in csv_files:
             file_name = os.path.basename(csv_file)
             prefix = file_name[0].upper()
             
             if prefix in ['B', 'G', 'J']:
-                self.convert_cross_section(csv_file, progress_callback)
+                self.convert_cross_section(csv_file, None)
             elif prefix == 'Z':
-                self.convert_longitudinal_section(csv_file, progress_callback)
+                self.convert_longitudinal_section(csv_file, None)
             elif prefix == 'Q':
-                self.convert_bridge_section(csv_file, progress_callback)
+                self.convert_bridge_section(csv_file, None)
             elif prefix == 'K':
-                self.convert_storage_section(csv_file, progress_callback)
+                self.convert_storage_section(csv_file, None)
+            
+            completed_count += 1
+            if progress_callback:
+                progress_callback(f"已转换: {file_name}")
+                progress_callback(f"已完成 {completed_count}/{len(csv_files)}")
         
         if progress_callback and self.results['failed']:
             progress_callback(f"\n===== 失败详情 =====")

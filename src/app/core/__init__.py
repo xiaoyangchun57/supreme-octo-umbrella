@@ -1,0 +1,1 @@
+"""Core module - contains business logic and data models."""

@@ -1,0 +1,1 @@
+"""UI module - contains all user interface components."""
